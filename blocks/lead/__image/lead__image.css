@@ -1,5 +1,19 @@
 .lead__image {
-    width: 984px;
-    height: 615px;
+    max-width: 984px;
+    min-width: 320px;
+    width: 100%;
     padding-top: 64px;
+}
+
+@media screen and (max-width: 425px) {
+    .lead__image {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .lead__image {
+        padding: 56px 48px 0 48px;
+        width: calc(100% - 96px);
+    }
 }
