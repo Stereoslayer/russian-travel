@@ -4,8 +4,7 @@
     max-width: 1184px;
     width: 100%;
     justify-content: space-between;
-    padding-top: 92px;
-    padding-bottom: 24px;
+    padding: 92px 48px 24px 48px;
 }
 
 @media screen and (max-width: 570px) {
@@ -26,7 +25,6 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .footer {
-        padding: 92px 48px 24px 48px;
         width: calc(100% - 96px);
     }
 }

@@ -5,7 +5,7 @@
     min-height: 740px;
     background-image: url("../../../images/cover-trains.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     z-index: 0;
     position: relative;
@@ -28,4 +28,12 @@
 .cover__background:hover:before {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        min-height: calc(100vw / 1.6);
+    }
+}
+
+
 
