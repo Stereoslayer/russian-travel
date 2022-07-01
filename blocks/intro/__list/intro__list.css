@@ -10,15 +10,3 @@
     margin: 0;
     padding: 33px 0 0 0;
 }
-
-@media screen and (max-width: 425px) {
-    .intro__list {
-        padding-top: 33px;
-    }
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .intro__list {
-        padding-top: 33px;
-    }
-}
